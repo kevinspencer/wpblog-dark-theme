@@ -1,0 +1,49 @@
+/* dark.css */
+body, input, select, textarea {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+
+a {
+  /*color: #80cbc4 !important;*/
+  color: #e0e0e0 !important;
+}
+
+a:hover, a:focus, a:active {
+  color: #4db6ac !important;
+}
+
+header, footer, article, .container, #main-navigation {
+  background-color: #1e1e1e !important;
+}
+
+article .the-content p,
+.commentlist .comment,
+.commentlist .pingback,
+.comment-meta,
+#respond form label,
+#main-navigation ul li a {
+  color: #cfcfcf !important;
+}
+
+input, textarea {
+  background-color: #2c2c2c !important;
+  border-color: #444 !important;
+  color: #eee !important;
+}
+
+pre, code {
+  background: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+.commentlist .pingback,
+.bypostauthor {
+  background-color: #222 !important;
+}
+
+.tagcloud,
+footer {
+  background: #1a1a1a !important;
+}
+
