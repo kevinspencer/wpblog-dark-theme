@@ -1,21 +1,36 @@
 /* dark.css */
 body, input, select, textarea {
-  background-color: #121212 !important;
+  background-color: #1e1e1e !important;
+  /*background-color: #121212 !important;*/
   color: #e0e0e0 !important;
 }
 
 a {
-  /*color: #80cbc4 !important;*/
   color: #e0e0e0 !important;
 }
 
 a:hover, a:focus, a:active {
-  color: #4db6ac !important;
+  /*color: #4db6ac !important;*/
+  color: #888888 !important;
 }
 
 header, footer, article, .container, #main-navigation {
   background-color: #1e1e1e !important;
 }
+
+.the-content a {
+  color: #888888 !important;
+}
+
+.the-content a:hover {
+   color: #AAAAAA !important;
+}
+
+/*.the-content a:hover,
+.the-content a:focus {
+  color: #c1e0ff;
+  text-decoration: underline;
+}*/
 
 article .the-content p,
 .commentlist .comment,
