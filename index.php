@@ -241,19 +241,8 @@
 	</div>
 </footer>
 
-<button id="theme-toggle" style="
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
-  background: #333;
-  color: white;
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  z-index: 9999;
-">
-  Toggle Theme
+<button id="theme-toggle" aria-label="Toggle dark mode">
+  <span id="theme-icon">🌙</span>
 </button>
 
 		<?php wp_footer(); ?>
