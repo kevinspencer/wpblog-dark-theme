@@ -1,3 +1,3 @@
 # wpblog-dark-theme
 
-Rudimentary light/dark them toggle logic for kevinspencer.org/posts
+Rudimentary light/dark theme toggle logic for kevinspencer.org/posts
