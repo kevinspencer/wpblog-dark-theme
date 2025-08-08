@@ -1,3 +1,3 @@
 # wpblog-dark-theme
 
-Rudimentary light/dark theme toggle logic for kevinspencer.org/posts
+Rudimentary light/dark mode toggle logic the Wordpress Less theme that runs kevinspencer.org/posts
