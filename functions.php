@@ -26,9 +26,10 @@ function less_scripts()  {
 
 	// theme styles
 	wp_enqueue_style( 'less-style', get_template_directory_uri() . '/style.css', '10000', 'all' );
-        //wp_enqueue_style( 'fa-style', get_template_directory_uri() . '/font-awesome-4.7.0/css/font-awesome.min.css', '10000', 'all' );
-        //wp_enqueue_style( 'fa-style', get_template_directory_uri() . '/fontawesome-free-6.2.1-web/css/fontawesome.min.css', '10000', 'all' );
-			
+
+	// and our dark guy - that didn't sound right
+	wp_enqueue_style( 'less-style', get_template_directory_uri() . '/dark.css', '10000', 'all' );
+	
 	// add fitvid
 	wp_enqueue_script( 'less-fitvid', get_template_directory_uri() . '/js/jquery.fitvids.js', array( 'jquery' ), LESS_VERSION, true );
 	
@@ -47,5 +48,6 @@ function enqueue_dark_mode_toggle() {
         true
     );
 }
+
 add_action('wp_enqueue_scripts', 'enqueue_dark_mode_toggle');
 add_action( 'wp_enqueue_scripts', 'less_scripts' );

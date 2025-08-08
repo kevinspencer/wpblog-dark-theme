@@ -1,6 +1,22 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
+
+<script>
+  (function() {
+    if (localStorage.getItem('theme') !== 'light') {
+      // Add the class, as before.
+      document.documentElement.classList.add('dark');
+
+      // ALSO, create and inject a style tag directly into the head.
+      var style = document.createElement('style');
+      style.id = 'critical-dark-style-test'; // We give it an ID to look for it later
+      style.innerHTML = 'html.dark body { background-color: #1e1e1e !important; }';
+      document.head.appendChild(style);
+    }
+  })();
+</script>
+	
 <meta name="viewport" content="width=device-width; initial-scale=1.0" />
 <title><?php bloginfo('name'); ?></title>
 

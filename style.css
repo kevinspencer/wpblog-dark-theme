@@ -937,7 +937,7 @@ html[xmlns] .clearfix {
   transition: background 0.3s ease, color 0.3s ease;
 }
 
-body.dark #theme-toggle {
+html.dark #theme-toggle {
   background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
 }
