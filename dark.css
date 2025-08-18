@@ -4,7 +4,6 @@ html.dark body,
 html.dark input,
 html.dark select,
 html.dark textarea {
-  /* background-color: #1e1e1e !important;*/
   background-color: #2F2C2B !important;
   color: #e0e0e0 !important;
 }
@@ -28,7 +27,6 @@ html.dark footer,
 html.dark article,
 html.dark .container,
 html.dark #main-navigation {
-  /*background-color: #1e1e1e !important;*/
   background-color: #2F2C2B !important;
 }
 
@@ -87,33 +85,54 @@ html.dark .justified-gallery {
   background-color: transparent !important;
 }
 
-/* Outer comment container with gravatar */
-html.dark .commentlist .comment {
-  background-color: #2F2C2B !important; /* same as site background */
-  border: none !important;              /* remove colored border */
-  padding: 15px 0;                      /* optional: slim padding */
+/* =========================
+   Dark-mode Comments Styling
+   ========================= */
+
+html.dark .commentlist .comment,
+html.dark .commentlist .pingback,
+html.dark .commentlist .bypostauthor {
+  background-color: #2F2C2B !important;
+  border: none !important;
+  padding: 0;
+  margin-bottom: 40px;
+  box-shadow: none !important;
 }
 
-/* Inner comment content (actual text bubble) */
-html.dark .commentlist .comment .comment-body {
+html.dark .commentlist .comment .comment-body,
+html.dark .commentlist .pingback .comment-body {
   background-color: #3a3635 !important;
-  /*background-color: #4b4543 !important; /* lighter panel for text */
   padding: 15px;
   border-radius: 6px;
+  color: #CFCFCF !important;
 }
 
-/* Reply form styling to match inner comment background */
+html.dark .commentlist .bypostauthor .comment-body {
+  background-color: #4b4543 !important;
+  padding: 15px;
+  border-radius: 6px;
+  color: #e0e0e0 !important;
+}
+
+html.dark .comment-meta,
+html.dark .commentlist .comment .comment-meta {
+  color: #CFCFCF !important;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
 html.dark #respond textarea,
 html.dark #respond input[type="text"],
 html.dark #respond input[type="email"] {
   background-color: #3a3635 !important;
-  color: #e0e0e0 !important;       /* text color for readability */
-  border: none !important;          /* clean look without border */
+  color: #e0e0e0 !important;
+  border: none !important;
   padding: 10px;
   border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-/* Submit button styling */
 html.dark #respond input[type="submit"] {
   background-color: #3a3635 !important;
   color: #e0e0e0 !important;
@@ -124,5 +143,5 @@ html.dark #respond input[type="submit"] {
 }
 
 html.dark #respond input[type="submit"]:hover {
-  background-color: #56504e !important; /* slightly darker on hover */
+  background-color: #56504e !important;
 }
