@@ -89,6 +89,7 @@ html.dark .justified-gallery {
    Dark-mode Comments Styling
    ========================= */
 
+/* Outer comment wrapper: no border, background same as page */
 html.dark .commentlist .comment,
 html.dark .commentlist .pingback,
 html.dark .commentlist .bypostauthor {
@@ -99,6 +100,7 @@ html.dark .commentlist .bypostauthor {
   box-shadow: none !important;
 }
 
+/* Inner comment box: normal comments */
 html.dark .commentlist .comment .comment-body,
 html.dark .commentlist .pingback .comment-body {
   background-color: #3a3635 !important;
@@ -107,6 +109,7 @@ html.dark .commentlist .pingback .comment-body {
   color: #CFCFCF !important;
 }
 
+/* Inner comment box: author comments */
 html.dark .commentlist .bypostauthor .comment-body {
   background-color: #4b4543 !important;
   padding: 15px;
@@ -114,6 +117,7 @@ html.dark .commentlist .bypostauthor .comment-body {
   color: #e0e0e0 !important;
 }
 
+/* Comment text metadata (author, date, etc.) */
 html.dark .comment-meta,
 html.dark .commentlist .comment .comment-meta {
   color: #CFCFCF !important;
@@ -121,6 +125,7 @@ html.dark .commentlist .comment .comment-meta {
   margin-bottom: 10px;
 }
 
+/* Reply form inputs & textarea */
 html.dark #respond textarea,
 html.dark #respond input[type="text"],
 html.dark #respond input[type="email"] {
@@ -133,6 +138,7 @@ html.dark #respond input[type="email"] {
   box-sizing: border-box;
 }
 
+/* Submit button */
 html.dark #respond input[type="submit"] {
   background-color: #3a3635 !important;
   color: #e0e0e0 !important;
@@ -144,4 +150,25 @@ html.dark #respond input[type="submit"] {
 
 html.dark #respond input[type="submit"]:hover {
   background-color: #56504e !important;
+}
+
+/* Dark mode fixes for WPPB bookmarks */
+html.dark .wppb-description,
+html.dark .wppb-footer,
+html.dark .wppb-date {
+  color: #cfcfcf !important;
+}
+
+html.dark .wppb-header a {
+  color: #999 !important;
+}
+
+html.dark .wppb-footer i {
+  color: #888888 !important;
+}
+
+html.dark abbr.wppb-date {
+  color: #999 !important;
+  border-bottom: none !important;
+  cursor: default;
 }
