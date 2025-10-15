@@ -4,7 +4,9 @@ html.dark body,
 html.dark input,
 html.dark select,
 html.dark textarea {
-  background-color: #2F2C2B !important;
+  /* background-color: #1e1e1e !important;*/
+  /*background-color: #202324 !important;*/
+  background-color: #202324 !important;
   color: #e0e0e0 !important;
 }
 
@@ -27,7 +29,8 @@ html.dark footer,
 html.dark article,
 html.dark .container,
 html.dark #main-navigation {
-  background-color: #2F2C2B !important;
+  /*background-color: #1e1e1e !important;*/
+  background-color: #202324 !important;
 }
 
 html.dark .the-content a {
@@ -93,8 +96,8 @@ html.dark .justified-gallery {
 html.dark .commentlist .comment,
 html.dark .commentlist .pingback,
 html.dark .commentlist .bypostauthor {
-  background-color: #2F2C2B !important;
-  border: none !important;
+  background-color: #202324 !important;  /* match main page background */
+  border: none !important;               /* remove outer border */
   padding: 0;
   margin-bottom: 40px;
   box-shadow: none !important;
@@ -103,18 +106,18 @@ html.dark .commentlist .bypostauthor {
 /* Inner comment box: normal comments */
 html.dark .commentlist .comment .comment-body,
 html.dark .commentlist .pingback .comment-body {
-  background-color: #3a3635 !important;
+  background-color: #3a3635 !important;  /* normal inner comment background */
   padding: 15px;
   border-radius: 6px;
-  color: #CFCFCF !important;
+  color: #CFCFCF !important;            /* text color */
 }
 
 /* Inner comment box: author comments */
 html.dark .commentlist .bypostauthor .comment-body {
-  background-color: #4b4543 !important;
+  background-color: #4b4543 !important;  /* slightly lighter than normal comments */
   padding: 15px;
   border-radius: 6px;
-  color: #e0e0e0 !important;
+  color: #e0e0e0 !important;            /* text color for author */
 }
 
 /* Comment text metadata (author, date, etc.) */
@@ -149,26 +152,26 @@ html.dark #respond input[type="submit"] {
 }
 
 html.dark #respond input[type="submit"]:hover {
-  background-color: #56504e !important;
+  background-color: #56504e !important; /* slightly darker on hover */
 }
 
 /* Dark mode fixes for WPPB bookmarks */
 html.dark .wppb-description,
 html.dark .wppb-footer,
 html.dark .wppb-date {
-  color: #cfcfcf !important;
+  color: #cfcfcf !important;  /* match other body text */
 }
 
 html.dark .wppb-header a {
-  color: #999 !important;
+  color: #999 !important;  /* consistent link color */
 }
 
 html.dark .wppb-footer i {
-  color: #888888 !important;
+  color: #888888 !important;     /* icon color slightly dimmer */
 }
 
 html.dark abbr.wppb-date {
-  color: #999 !important;
-  border-bottom: none !important;
-  cursor: default;
+  color: #999 !important;       /* softer gray */
+  border-bottom: none !important; /* remove default underline */
+  cursor: default;              /* prevents the pointer underline “tooltip” look */
 }
