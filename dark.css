@@ -5,7 +5,6 @@ html.dark input,
 html.dark select,
 html.dark textarea {
   /* background-color: #1e1e1e !important;*/
-  /*background-color: #202324 !important;*/
   background-color: #202324 !important;
   color: #e0e0e0 !important;
 }
@@ -66,7 +65,7 @@ html.dark code {
 
 html.dark .commentlist .pingback,
 html.dark .bypostauthor {
-  background-color: #2c2c2c !important;
+  background-color: #2A2D30 !important;
 }
 
 html.dark input[type="submit"],
@@ -106,7 +105,8 @@ html.dark .commentlist .bypostauthor {
 /* Inner comment box: normal comments */
 html.dark .commentlist .comment .comment-body,
 html.dark .commentlist .pingback .comment-body {
-  background-color: #3a3635 !important;  /* normal inner comment background */
+  background-color: #2A2D30 !important;  /* normal inner comment background */
+  /*background-color: #3a3635 !important;  */
   padding: 15px;
   border-radius: 6px;
   color: #CFCFCF !important;            /* text color */
@@ -114,7 +114,7 @@ html.dark .commentlist .pingback .comment-body {
 
 /* Inner comment box: author comments */
 html.dark .commentlist .bypostauthor .comment-body {
-  background-color: #4b4543 !important;  /* slightly lighter than normal comments */
+  background-color: #2A2D30 !important;  /* slightly lighter than normal comments */
   padding: 15px;
   border-radius: 6px;
   color: #e0e0e0 !important;            /* text color for author */
@@ -132,7 +132,7 @@ html.dark .commentlist .comment .comment-meta {
 html.dark #respond textarea,
 html.dark #respond input[type="text"],
 html.dark #respond input[type="email"] {
-  background-color: #3a3635 !important;
+  background-color: #2A2D30 !important;
   color: #e0e0e0 !important;
   border: none !important;
   padding: 10px;
@@ -143,7 +143,7 @@ html.dark #respond input[type="email"] {
 
 /* Submit button */
 html.dark #respond input[type="submit"] {
-  background-color: #3a3635 !important;
+  background-color: #2A2D30 !important;
   color: #e0e0e0 !important;
   border: none !important;
   padding: 10px 20px;
