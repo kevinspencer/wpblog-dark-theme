@@ -28,16 +28,15 @@ html.dark footer,
 html.dark article,
 html.dark .container,
 html.dark #main-navigation {
-  /*background-color: #1e1e1e !important;*/
   background-color: #202324 !important;
 }
 
 html.dark .the-content a {
-  color: #888888 !important;
+  color: #999999 !important;
 }
 
 html.dark .the-content a:hover {
-  color: #aaaaaa !important;
+  text-decoration: underline;
 }
 
 html.dark article .the-content p,
@@ -65,7 +64,6 @@ html.dark code {
 
 html.dark .commentlist .pingback,
 html.dark .bypostauthor {
-  /* background-color: #2A2D30 !important;*/
   background-color: #3B3F42 !important;
 }
 
@@ -126,6 +124,14 @@ html.dark .commentlist .comment .comment-meta {
   color: #CFCFCF !important;
   font-size: 12px;
   margin-bottom: 10px;
+}
+
+html.dark .commentlist .comment-body p a {
+  color: #999999 !important;
+}
+
+html.dark .commentlist .comment-body p a:hover {
+  text-decoration: underline;
 }
 
 /* Reply form inputs & textarea */
